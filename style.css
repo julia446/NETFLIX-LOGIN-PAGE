@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    width:900px;
+    height:600px;
+    background-image: url('background.jpg');
+   margin:125px;
+   margin-left:550px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+.login{
+    width:500px;
+    height:500px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 25px;
+    margin:200px;
+    border-style:ridge;
+   
+}
+.top{
+    text-align: center;
+    font-weight: 800;
+    font-size: 45px;
+    margin-top:75px;
+    color:red;
+}
+input{
+    width:57%;
+    margin-left:120px;
+    height:7%;
+    background-color: rgb(24,24,24);
+    color:white;
+}
+button{
+    width:57%;
+    height:7%;
+    background-color:red;
+    margin-left:120px;
+    color:white;
+}
